@@ -69,11 +69,11 @@ button:active {
     }
   
     #guess-input {
-        width: 250px; /* Hace que el ancho del input sea el 80% del ancho del contenedor */
+        width: 200px; /* Hace que el ancho del input sea el 80% del ancho del contenedor */
     }
   
     #guess-button {
-        width: 250px; /* Hace que el ancho del botón sea el 80% del ancho del contenedor */
+        width: 180px; /* Hace que el ancho del botón sea el 80% del ancho del contenedor */
     }
   
     .letter {
