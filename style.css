@@ -9,7 +9,6 @@ body {
      
 h1 {
     text-align: center;
-    margin-top: 50px;
 }
     
 #guess-input {
@@ -57,7 +56,6 @@ button:active {
 
 }
 #grid {
-    margin-top: 40px;
     text-align: center;
 }
 #palabra{
