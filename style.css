@@ -65,7 +65,7 @@ button:active {
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     body {
-      font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+      font-size: 20px; /* Ajusta el tamaño de fuente para dispositivos móviles */
     }
   
     #guess-input {
