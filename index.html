@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Wordle PPY</h1>
+    <input type="text" id="guess-input" placeholder="Ingrese una palabra" onkeydown="return /^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]+$/i.test(event.key)" maxlength="6">
+    <button id="guess-button">Intentar</button>
+    <div id="grid"></div>
+    <p id="result">  
+    <p id="palabra"></p>
+  </body>
+</html>

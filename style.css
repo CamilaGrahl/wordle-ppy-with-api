@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+/*Autor: Camila Grahl*/
+body {
+  font-family: "Fredoka", sans-serif;
+  background: #f6f5f7;
+  color: #3e363f;
+
+}
+     
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+    
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+    
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+    
+button:active {
+    transform: scale(0.95);
+}
+     
+.letter {
+    border-radius: 5px;
+    border: 1px solid rgb(202, 176, 176);
+    padding: 5px;
+    margin: 5px;
+    min-width: 25px;
+    text-align: center;
+    display: inline-block
+}
+    
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+     
+.input-area{
+    margin: 30px;
+
+}
+#grid {
+    margin-top: 40px;
+    text-align: center;
+}
+#palabra{
+    display: none;
+    text-align: center;
+}
