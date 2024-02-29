@@ -62,3 +62,30 @@ button:active {
     display: none;
     text-align: center;
 }
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+    }
+  
+    #guess-input {
+        width: 250px; /* Hace que el ancho del input sea el 80% del ancho del contenedor */
+    }
+  
+    #guess-button {
+        width: 250px; /* Hace que el ancho del botón sea el 80% del ancho del contenedor */
+    }
+  
+    .letter {
+      min-width: 20px; /* Ajusta el ancho mínimo de las letras para dispositivos móviles */
+      padding: 3px; /* Ajusta el relleno de las letras para dispositivos móviles */
+    }
+  
+    .input-area {
+      margin: 10px; /* Ajusta el margen del área de entrada para dispositivos móviles */
+    }
+  
+    #grid {
+      padding: 5px; /* Ajusta el relleno del contenedor grid para dispositivos móviles */
+    }
+}  
